@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import PrivateRoute from '../auth/privateroute';
 
 import login from '../login/login';
-import empleados from '../empleados/index';
+import CrudSimple from '../crudSimple';
 import Home from '../pages/home/home';
 
 export default function AppRouter() {
@@ -12,7 +12,7 @@ export default function AppRouter() {
       <Switch>
         <Route exact path={['/']} component={Home} />
         <Route exact path={['/login']} component={login} />
-        <PrivateRoute exact path="/empleados" component={empleados} />
+        <PrivateRoute exact path="/crudSimple" component={CrudSimple} />
         <Route
           path={'*'}
           component={() => (

@@ -37,7 +37,7 @@ export default class login extends React.Component {
             expires: calculaExpiracionSesion(),
           });
 
-          this.props.history.push('/empleados');
+          this.props.history.push('/crudSimple');
         }
 
         this.setState({ loading: false });

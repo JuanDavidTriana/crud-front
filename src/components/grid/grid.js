@@ -19,7 +19,7 @@ export default class DataGrid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      Loading: false,
+      loading: false,
       rows: [],
     };
 
