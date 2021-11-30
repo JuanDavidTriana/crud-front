@@ -88,28 +88,24 @@ export default class CrudSimpleCrear extends React.Component {
                 onChange={(e) => this.setValue('fila_1', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_2</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue('fila_2', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_3</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue('fila_3', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_4</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue('fila_4', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_5</Form.Label>
               <Form.Control
@@ -123,35 +119,30 @@ export default class CrudSimpleCrear extends React.Component {
                 onChange={(e) => this.setValue('fila_6', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_7</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue('fila_7', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_8</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue('fila_8', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_9</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue('fila_9', e.target.value)}
               />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label>fila_10</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue('fila_10', e.target.value)}
               />
             </Form.Group>
-
             <Button
               variant="primary"
               onClick={() => console.log(this.guardarCrudSimple())}

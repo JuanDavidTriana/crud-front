@@ -38,7 +38,7 @@ export default class Menu extends React.Component {
               }
             />
               */}
-          <Navbar.Brand href="#home" id="navbar-in">
+          <Navbar.Brand href="/" id="navbar-in">
             Misión Tic
             <span id="navbar-sub-brand"> 2022</span>
           </Navbar.Brand>
