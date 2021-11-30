@@ -17,10 +17,6 @@ const columns = [
     text: 'fila_1',
   },
   {
-    dataField: 'fila_1',
-    text: 'fila_1',
-  },
-  {
     dataField: 'fila_2',
     text: 'fila_2',
   },
@@ -55,6 +51,10 @@ const columns = [
   {
     dataField: 'fila_10',
     text: 'fila_10',
+  },
+  {
+    dataField: 'fila_11',
+    text: 'fila_11',
   },
 ];
 
