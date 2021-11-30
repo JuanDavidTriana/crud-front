@@ -30,8 +30,7 @@ export default class Menu extends React.Component {
     return (
       <Navbar fixed="top" id="navbar" bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home" id="navbar-in">
-            {/* Logo
+          {/* Logo
             <img
               id="navbar-img"
               src={
@@ -39,6 +38,7 @@ export default class Menu extends React.Component {
               }
             />
               */}
+          <Navbar.Brand href="#home" id="navbar-in">
             Misión Tic
             <span id="navbar-sub-brand"> 2022</span>
           </Navbar.Brand>
@@ -56,6 +56,9 @@ export default class Menu extends React.Component {
                 </Row>
                 <Row>#USUARIO#</Row>
               </Dropdown.Header>
+              <Dropdown.Item href="/">Home</Dropdown.Item>
+              <Dropdown.Item href="/login">Iniciar Sesion</Dropdown.Item>
+              <Dropdown.Item href="/crudSimple">Crud</Dropdown.Item>
               <Dropdown.Divider />
               <Dropdown.Item onClick={() => this.logout()}>
                 Cerrar sesión
